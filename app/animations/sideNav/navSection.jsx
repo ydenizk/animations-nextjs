@@ -14,7 +14,7 @@ const NavSection = () => {
   useEffect(() => {
     if (isActive) setIsActive(false);
 
-  }, [pathname,isActive]);  
+  }, [pathname]);  
   
 
   return (
