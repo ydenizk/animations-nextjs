@@ -9,8 +9,9 @@ export default function Home() {
       <div className="w-full font-nunito h-[200vh]  overflow-hidden ">
         <HeroTextClient />
         <HeroImage />
-        <Footer />
+ 
       </div>
+      <Footer />
     </TransitionProvider>
   );
 }
