@@ -1,6 +1,7 @@
 import { TransitionProvider } from "./components/pageTransitionprovider";
 import HeroTextClient from "./components/HeroTextClient";
 import HeroImage from "./components/HeroImage";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
