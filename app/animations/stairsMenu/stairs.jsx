@@ -41,7 +41,10 @@ export const Stairs = () => {
       {[...Array(5)].map((_, index) => {
         return (
           <motion.div
+<<<<<<< HEAD
           key={index}
+=======
+>>>>>>> origin/main
             variants={height}
             initial="initial"
             animate="enter"

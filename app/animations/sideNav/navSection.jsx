@@ -13,7 +13,11 @@ const NavSection = () => {
 
   useEffect(() => {
     if (isActive) setIsActive(false);
+<<<<<<< HEAD
   }, [pathname,isActive]);
+=======
+  }, [pathname]);
+>>>>>>> origin/main
 
   return (
     <>
