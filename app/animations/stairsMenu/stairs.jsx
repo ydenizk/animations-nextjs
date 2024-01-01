@@ -41,10 +41,8 @@ export const Stairs = () => {
       {[...Array(5)].map((_, index) => {
         return (
           <motion.div
-<<<<<<< HEAD
+
           key={index}
-=======
->>>>>>> origin/main
             variants={height}
             initial="initial"
             animate="enter"
@@ -54,7 +52,7 @@ export const Stairs = () => {
           ></motion.div>
         );
       })}
-      {/* below part is just for background color and not necessary. */}
+      {/* below part is just for background color and not necessary ...... */}
       <motion.div
         variants={background}
         initial="initial"
