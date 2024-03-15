@@ -42,7 +42,7 @@ export const Stairs = () => {
         return (
           <motion.div
 
-          key={index}
+          key={index} //I ADDED !!!!
             variants={height}
             initial="initial"
             animate="enter"

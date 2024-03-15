@@ -39,6 +39,14 @@ export const dropdown = [
     label: "Horizontol Scroll",
     href: "/scrollHorizontol",
   },
+  {
+    label: "Text Animations",
+    href: "/texts",
+  },
+  {
+    label: "Scroll Animations",
+    href: "/scroll",
+  },
 ];
 
 // for parallax animation
